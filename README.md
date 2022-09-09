@@ -62,3 +62,4 @@ ___
 ```
 {"Success":false,"Message":"Терминал не найден"}
 ```
+![img.png](https://github.com/kirillpydev/pyament/blob/img/img/auth.png?raw=true)
