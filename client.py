@@ -59,6 +59,7 @@ class ClientCloudpayments(AbstractInteractionClient):
         # hardcode CARD_DATA from card data entry page
         with open('fixtures') as card:
             self.CARD_DATA = json.loads(card.read())
+            self.CARD_DATA['PublicId'] = env['PUBLIC_ID']
 
     async def service_payment(self, client_session: ClientSession) -> None:
         """

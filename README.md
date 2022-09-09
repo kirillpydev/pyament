@@ -19,6 +19,7 @@ ___
   SERVICE_URL=https://oauth.yandex.ru/authorize
   BASE_URL=https://api.cloudpayments.ru/payments/
   RELATIVE_URL=charge
+  PUBLIC_ID=your_public_id
   ```
 ___
 
